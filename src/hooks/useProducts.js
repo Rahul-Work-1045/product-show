@@ -61,12 +61,6 @@ export const useProducts = () => {
       case "price-high":
         result.sort((a, b) => b.price - a.price);
         break;
-      case "name":
-        result.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case "popularity":
-        result.sort((a, b) => b.rating.rate - a.rating.rate);
-        break;
       default:
         break;
     }

@@ -17,7 +17,7 @@
   - View detailed product information (images, description, ratings)
   - Add items to cart, update quantities, or remove them entirely
   - Filter products by category and price range
-  - Sort products by price, title, and popularity
+  - Sort products by price, title
   - Paginate through product listings
   - Real-time product search and instant filters
   - Toast messages for actions like adding/removing items

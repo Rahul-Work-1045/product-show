@@ -130,7 +130,7 @@ export const Cart = () => {
                   <div className="flex items-center border rounded-md w-max mx-auto md:mx-0">
                     <Button
                       onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                      className="px-2 py-1 hover:bg-gray-50"
+                      className="px-2 py-1"
                       type="button"
                     >
                       -
@@ -138,7 +138,7 @@ export const Cart = () => {
                     <span className="px-3 py-1">{item.quantity}</span>
                     <Button
                       onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                      className="px-2 py-1 hover:bg-gray-50"
+                      className="px-2 py-1"
                       type="button"
                     >
                       +
