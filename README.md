@@ -44,6 +44,8 @@
   - cd task-product-show
   - npm install
 
+=> vercel link
+  - https://product-show-lyart.vercel.app/
 
 => Environment Variables
   - Create a `.env` file in the root directory and add the following line:
