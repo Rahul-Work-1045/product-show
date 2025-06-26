@@ -44,5 +44,12 @@
   - cd task-product-show
   - npm install
 
+
+=> Environment Variables
+  - Create a `.env` file in the root directory and add the following line:
+
+=> Add iin .env file
+  - REACT_APP_API_BASE_URL=https://fakestoreapi.com
+
 => Run the App
   - npm start
